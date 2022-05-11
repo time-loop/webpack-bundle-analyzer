@@ -1,5 +1,5 @@
 {
-  "name": "@clickup/webpack-bundle-analyzer",
+  "name": "@time-loop/webpack-bundle-analyzer",
   "version": "4.4.1",
   "description": "Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap",
   "author": "Yury Grunin <grunin.ya@ya.ru>",
@@ -11,7 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webpack-contrib/webpack-bundle-analyzer.git"
+    "url": "git+https://github.com/time-loop/webpack-bundle-analyzer.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "lib/index.js",
   "bin": "lib/bin/analyzer.js",
